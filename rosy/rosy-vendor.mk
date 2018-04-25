@@ -152,7 +152,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/rosy/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/rosy/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/xiaomi/rosy/proprietary/lib/modules/ansi_cprng.ko :system/lib/modules/ansi_cprng.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/backlight.ko :system/lib/modules/backlight.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/br_netfilter.ko :system/lib/modules/br_netfilter.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/evbug.ko :system/lib/modules/evbug.ko \
     vendor/xiaomi/rosy/proprietary/lib/modules/exfat.ko:system/lib/modules/exfat.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/generic_bl.ko :system/lib/modules/generic_bl.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/lcd.ko :system/lib/modules/lcd.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/mmc_block_test.ko :system/lib/modules/mmc_block_test.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/mmc_test.ko :system/lib/modules/mmc_test.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/rdbg.ko :system/lib/modules/rdbg.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/test-iosched.ko :system/lib/modules/est-iosched.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/ufs_test.ko :system/lib/modules/ufs_test.ko \
+    vendor/xiaomi/rosy/proprietary/lib/modules/wil6210.ko :system/lib/modules/wil6210.ko \
     vendor/xiaomi/rosy/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/xiaomi/rosy/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/xiaomi/rosy/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
